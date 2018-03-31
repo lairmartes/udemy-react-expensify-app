@@ -67,5 +67,5 @@ test('should sort by amount', () => {
         expenses[1],
         expenses[2],
         expenses[0]
-    ])
+    ]);
 });

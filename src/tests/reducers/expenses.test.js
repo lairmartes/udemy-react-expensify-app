@@ -13,7 +13,7 @@ test('should remove expense by id', () => {
         id: expenses[1].id
     };
 
-    const expected = [ expenses[0], expenses[2] ]
+    const expected = [ expenses[0], expenses[2] ];
     const actual = expensesReducer(expenses, testInputAction);
     expect(actual).toEqual(expected);
 });
