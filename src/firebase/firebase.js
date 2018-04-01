@@ -15,6 +15,7 @@ const database = firebase.database();
 
 export {firebase, database as default };
 
+
 // Worked with "on" for events as well
 // database.ref('expenses').once('value')
 //   .then((snapshot) => {
